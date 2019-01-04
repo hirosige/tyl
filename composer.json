@@ -41,7 +41,8 @@
 	"humanmade/s3-uploads": "2.0.0-beta3",
 	"wpackagist-plugin/debug-bar": "0.9",
 	"wpackagist-plugin/woocommerce": "*",
-	"wpackagist-theme/ecommerce-solution": "*"
+	"wpackagist-theme/ecommerce-solution": "*",
+	"ext-gd": "*"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
