@@ -42,6 +42,12 @@
 	"wpackagist-plugin/debug-bar": "0.9",
 	"wpackagist-plugin/woocommerce": "*",
 	"wpackagist-plugin/omise": "*",
+	"wpackagist-plugin/google-sitemap-generator": "*",
+	"wpackagist-plugin/broken-link-checker": "*",
+	"wpackagist-plugin/pushpress": "*",
+	"wpackagist-plugin/akismet": "*",
+	"wpackagist-plugin/addquicktag": "*",
+	"wpackagist-plugin/wp-multibyte-patch": "*",
 	"wpackagist-theme/ecommerce-solution": "*",
 	"wpackagist-theme/pasal-ecommerce": "*",
 	"ext-gd": "*"
@@ -66,7 +72,13 @@
 		"wpackagist-plugin/all-in-one-seo-pack",
 		"wpackagist-plugin/debug-bar",
 		"wpackagist-plugin/woocommerce",
-		"wpackagist-plugin/omise"
+		"wpackagist-plugin/omise",
+		"wpackagist-plugin/google-sitemap-generator",
+		"wpackagist-plugin/broken-link-checker",
+		"wpackagist-plugin/pushpress",
+		"wpackagist-plugin/akismet",
+		"wpackagist-plugin/addquicktag",
+		"wpackagist-plugin/wp-multibyte-patch"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme",
