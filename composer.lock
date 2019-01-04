@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d3e37df21ab55c69b58ee22e7673d5f",
+    "content-hash": "714a129e63c1be396d1b8fea851fb8b9",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3831,6 +3831,26 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/ecommerce-solution/"
+        },
+        {
+            "name": "wpackagist-theme/pasal-ecommerce",
+            "version": "1.0.9",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/pasal-ecommerce/",
+                "reference": "1.0.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/pasal-ecommerce.1.0.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/pasal-ecommerce/"
         }
     ],
     "packages-dev": [
