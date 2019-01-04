@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0001c2c7620b87259ae6b95d13de8bfe",
+    "content-hash": "0a0afaae769df7fb0cea4ab95afc4102",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3711,6 +3711,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/nginx-helper/"
+        },
+        {
+            "name": "wpackagist-plugin/omise",
+            "version": "3.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/omise/",
+                "reference": "tags/3.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/omise.3.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/omise/"
         },
         {
             "name": "wpackagist-plugin/redis-cache",

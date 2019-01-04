@@ -41,6 +41,7 @@
 	"humanmade/s3-uploads": "2.0.0-beta3",
 	"wpackagist-plugin/debug-bar": "0.9",
 	"wpackagist-plugin/woocommerce": "*",
+	"wpackagist-plugin/omise": "*",
 	"wpackagist-theme/ecommerce-solution": "*",
 	"ext-gd": "*"
   },
