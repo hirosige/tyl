@@ -39,7 +39,9 @@
 	"wpackagist-plugin/redis-cache": "1.3.5",
 	"predis/predis": "1.1.1",
 	"humanmade/s3-uploads": "2.0.0-beta3",
-	"wpackagist-plugin/debug-bar": "0.9"
+	"wpackagist-plugin/debug-bar": "0.9",
+	"wpackagist-plugin/woocommerce": "*",
+	"wpackagist-theme/ecommerce-solution": "*"
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -59,10 +61,12 @@
 	  ],
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/all-in-one-seo-pack",
-		"wpackagist-plugin/debug-bar"
+		"wpackagist-plugin/debug-bar",
+		"wpackagist-plugin/woocommerce"
 	  ],
 	  "web/app/themes/{$name}/": [
-		"type:wordpress-theme"
+		"type:wordpress-theme",
+		"wpackagist-theme/ecommerce-solution"
 	  ]
 	},
 	"dropin-paths": {
