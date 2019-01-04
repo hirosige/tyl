@@ -64,7 +64,8 @@
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/all-in-one-seo-pack",
 		"wpackagist-plugin/debug-bar",
-		"wpackagist-plugin/woocommerce"
+		"wpackagist-plugin/woocommerce",
+		"wpackagist-plugin/omise"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme",
