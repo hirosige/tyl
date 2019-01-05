@@ -48,6 +48,7 @@
 	"wpackagist-plugin/akismet": "*",
 	"wpackagist-plugin/addquicktag": "*",
 	"wpackagist-plugin/wp-multibyte-patch": "*",
+	"wpackagist-plugin/woo-gutenberg-products-block": "*",
 	"wpackagist-theme/ecommerce-solution": "*",
 	"wpackagist-theme/pasal-ecommerce": "*",
 	"ext-gd": "*"
@@ -78,7 +79,8 @@
 		"wpackagist-plugin/pushpress",
 		"wpackagist-plugin/akismet",
 		"wpackagist-plugin/addquicktag",
-		"wpackagist-plugin/wp-multibyte-patch"
+		"wpackagist-plugin/wp-multibyte-patch",
+		"wpackagist-plugin/woo-gutenberg-products-block"
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme",
